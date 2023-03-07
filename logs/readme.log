@@ -1,0 +1,2 @@
+_2023-01-24-15-32-39 ->  ganho do observador = 10.0; ganho da inversa = 5.0; u_ref = 5 + sin(t); v_ref = sin(t); w_ref = sin(t)
+_2023-01-24-15-38-28 ->  ganho do observador = 10.0; ganho da inversa = 5.0; u_ref = 5; v_ref = 1; w_ref = -1

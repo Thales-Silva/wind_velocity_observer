@@ -1,0 +1,34 @@
+#Topic containing position and orientation info
+drone_pose_topic: "/mavros/local_position/pose"
+
+#Topic containing linear and angular velocities
+drone_twist_topic: "/mavros/local_position/velocity"
+
+#Topic containing motors spin rate
+esc_telemetry_topic: "/mavros/esc_telemetry"
+
+#Output topic with drone air relative velocity
+estimated_relative_velocity_topic: "/estimated_air_relative_velocity"
+
+#Output topic with drone wind velocity
+estimated_wind_velocity_topic: "/estimated_wind_velocity"
+
+#Drone total mass [kg]
+total_mass: 1.545029101
+
+#Rotor thrust coefficient [kg m/s^2]
+thrust_coefficient: 8.54858e-06
+
+#Rotor drag coefficient [kg m/s^2]
+rotor_drag_coefficient: 8.06428e-05
+
+#Body aerodynamics efforts coefficient matrix
+effort_coefficients: [0.3, 0.0, 0.0,
+                      0.0, 0.3, 0.0,
+                      0.0, 0.0, 0.15]
+
+#Disturbance observer gain
+observer_gain: 10.0
+
+#Inversion filter gain
+inversion_gain: 5.0
